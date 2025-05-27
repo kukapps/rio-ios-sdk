@@ -5,10 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "Rio",
-    platforms: [.macOS(.v10_12),
-                .iOS(.v11),
-                .tvOS(.v10),
-                .watchOS(.v3)],
+    platforms: [.macOS(.v10_15),
+                .iOS(.v13),
+                .tvOS(.v13),
+                .watchOS(.v7)],
     products: [
         .library(name: "Rio", targets: ["Rio"])
     ],
